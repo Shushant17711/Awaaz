@@ -85,6 +85,7 @@ Training needs the third-party checkouts listed in `.gitignore` (`sanoTTS/`, `pi
 
 ## Licenses
 
+- **Code:** MIT. See [LICENSE](LICENSE).
 - **Runtime:** the vocoder ops are vendored from sanoTTS under MIT (see `release/multilingual/indicml/LICENSE.sanotts`). The rest of the code was written for this project.
 - **Model weights** are derived from the teachers' outputs, so they inherit the terms of the teachers and their datasets. The IndicTTS Kannada, Gujarati, Odia and Assamese sets have **no license stated**. Treat the weights as research-only until those terms are confirmed. See [`DATASETS.md`](DATASETS.md).
 
