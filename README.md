@@ -1,4 +1,4 @@
-# Aa वा z
+# Aaवाz
 
 Small text-to-speech for Indian languages. One **2.4M-parameter** model (4.8 MB fp16) speaks 12 languages and runs on a CPU with **only NumPy**: no PyTorch, no eSpeak, no GPU. On a laptop CPU it runs at about 0.09× real time.
 
@@ -44,7 +44,7 @@ The model is **distilled**: full-size Piper/VITS "teacher" voices read about 10,
 
 Character error rate (CER) from Whisper large-v3-turbo on 32 held-out sentences per language. Lower is better. The teacher's CER is the best the student can reach.
 
-| Language | Teacher | Aa वा z |
+| Language | Teacher | Aaवाz |
 |---|---|---|
 | Hindi | 0.119 | 0.105 |
 | Marathi | 0.207 | 0.217 |
