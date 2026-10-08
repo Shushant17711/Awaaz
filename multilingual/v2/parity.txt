@@ -1,0 +1,6 @@
+PASS hi_IN: frames 189 vs 189, mel max|Δ| 7.63e-06, wav corr 1.000000
+PASS ta_IN: frames 140 vs 140, mel max|Δ| 1.14e-05, wav corr 1.000000
+PASS bn_BD: frames 184 vs 184, mel max|Δ| 1.29e-05, wav corr 1.000000
+PASS ur_PK: frames 124 vs 124, mel max|Δ| 9.54e-06, wav corr 1.000000
+PASS as_IN: frames 146 vs 146, mel max|Δ| 3.81e-06, wav corr 1.000000
+package weights: 4.80 MB, parameters: 2,399,330

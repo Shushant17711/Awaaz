@@ -1,0 +1,44 @@
+# Third-party checkouts and environments (cloned/installed separately, see README)
+/sanoTTS/
+/piper1-gpl/
+/train-venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Datasets, teacher checkpoints, training runs
+/data/
+/teachers/*/
+/multilingual/data/
+/multilingual/data-v2/
+/multilingual/runs/
+/multilingual/runs-v2/
+/diag/v*/
+/kangri/wavs/
+/samples/
+lightning_logs/
+
+# Model checkpoints and build outputs (only the shipped release is tracked)
+*.pt
+*.ckpt
+*.onnx
+/release/*
+!/release/multilingual/
+
+# Audio and media (except the release samples)
+*.wav
+*.mp3
+*.flac
+!/release/multilingual/samples/*.wav
+/review/*.pdf
+/tests/demo/
+
+# Logs and local scratch notes
+*.log
+*.out
+/jobs.txt
+/plan.md
+/progress.md
+.gpu.lock
+failed.txt
+/multilingual/v2/state/
